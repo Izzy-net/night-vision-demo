@@ -3,8 +3,8 @@ render_mode blend_mix;
 
 uniform bool on = true;
 
-uniform vec4 vision_colour: source_color  = vec4(0, 0.08, 0, 1);
-uniform vec4 glow_colour: source_color = vec4(0.475, 0.957, 0.439, 1);
+uniform vec4 vision_colour: source_color; // I use linear values: 0, 0.08, 0, 1
+uniform vec4 glow_colour: source_color; // I use linear values: 0.475, 0.957, 0.439, 1
 uniform float blur_amount = 1.5;
 uniform float glow_amount = 0.4;   //allows control of glow whilst still using standard perceptual luminance weight
 
